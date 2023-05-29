@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        body{
+            background-color: black;
+        }
+
+        ul{
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            /* flex-direction: row; */
+            gap: 70px;
+        }
+
+        ul li{
+            list-style-type: none;
+        }
+        
+        ul li a{
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 20px;
+            /* color: black; */
+            cursor: pointer;
+            transition: all 0.5s;
+        }
+
+        ul:hover li a{
+            color: aqua;
+        }
+
+        ul:hover li a:not(:hover)
+        {
+            opacity: 0.3;
+            filter: blur(1px);
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Achievements</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+    <!-- <au src="/" type="wav/audio"></audio> -->
+        <video src="/Tum se hi - Bhuvan Bam [Taaza khabar] Edit Status __ @BBKiVines .mp4" type="mp4/video" autoplay controls></video>
+</body>
+</html>

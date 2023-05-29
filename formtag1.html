@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: antiquewhite;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+        }
+
+        form{
+            border: 1px solid red;
+            min-width: 40%;
+            margin: 150px auto;
+            background-color: aliceblue;
+        }
+
+        .form-control{
+            text-align: left;
+            margin: 10px;
+        }
+
+
+
+        .form-control input,
+        .form-control select,
+        .form-control label
+        {
+            padding: 6px;
+            display: block;
+            /* border: 2px solid #777; */
+            border-radius: 3px;
+            margin-bottom: 10px;
+        }
+
+
+        .form-control input type[radio]
+        {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="123.html" enctype="multipart/form-data">
+
+        <div class="form-control">
+            <label for="fname">First Name: </label>
+            <input type="text" placeholder="Enter First name" id="fname" value="Dev Bhatt" name="fname">
+        </div>
+
+
+        <div class="form-control">
+            <label for="gender">
+                <input type="radio" >
+            </label>
+
+            <label for="gender">
+                <input type="radio" >
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="gender">
+               <select name="" id="">
+                <option value="alto">Alto</option>
+                <option value="alto">Alto</option>
+                <option value="alto">Alto</option>
+                <option value="alto">Alto</option>
+                <option value="alto">Alto</option>
+               </select>
+            </label>
+
+            <label for="gender">
+                <input type="radio" >
+            </label>
+
+
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            <button value="Submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

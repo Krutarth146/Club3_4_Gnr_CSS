@@ -1,0 +1,6 @@
+body{
+    background-image: url(/nature1.jpg),url(/highway1.avif),url(/water.avif),url(/nature1.jpg);
+    background-size: 400px 713px;
+    background-repeat: no-repeat;
+    background-position: 0% 0%, 33.33% 0% , 66.66% 0%, 100% 0%;
+}            

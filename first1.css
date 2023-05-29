@@ -1,0 +1,28 @@
+.d1{
+    color: aqua;
+}
+
+
+.divhw{
+    color: green;
+}
+
+div{
+    color: blue;
+}
+
+.ty{
+    color: brown;
+}
+
+.fg{
+    color: blanchedalmond;
+}
+
+div.ty h1.fg{
+    color: chartreuse;
+}
+
+#uni1{
+    color: chocolate;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            display: grid;
+            /* grid-template-columns: 200px 300px 200px; */
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            grid-template-columns: repeat(3,1fr);
+            grid-gap: 20px;
+            /* row-gap: 20px; */
+            /* column-gap: 20px; */
+            /* overflow: auto; */
+            /* grid-auto-rows: 30px; */
+            grid-auto-rows: minmax(100px, auto);
+            /* grid-auto-columns: 10px; */
+        }
+
+        .box{
+            border: 1px solid black;
+            background-color: bisque;
+            border-radius: 5px;
+        }
+
+        #d2{
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        #d3{
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+
+        #d1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="d1">dibba 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quo eaque totam enim quas, deserunt sint ipsa eius corporis dolores iure facilis,</div>
+        <div class="box" id="d2">dibba 2</div>
+        <div class="box" id="d3">dibba 3</div>
+        <div class="box">dibba 4</div>
+        <div class="box">dibba 5</div>
+    </div>
+</body>
+</html>
